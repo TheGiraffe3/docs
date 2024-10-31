@@ -15,12 +15,12 @@ topics:
   - Pull requests
 shortTitle: Create a PR from a fork
 ---
-If your pull request compares your topic branch with a branch in the upstream repository as the base branch, then your topic branch is also called the "compare branch" of the pull request.
+If your pull request compares your topic branch with a branch in the upstream repository as the base branch, then your topic branch is also called the "head branch" of the pull request.
 
 For example:
-* Your topic branch (also known as “feature branch”) is the branch where you’re making your changes in your forked repository (e.g. `my-topic-branch`).
+* Your topic branch (also known as "feature branch") is the branch where you’re making your changes in your forked repository (e.g. `my-topic-branch`).
 * The base branch is the branch in the upstream (central) repository that you want to merge your changes into (e.g. `main`).
-* The pull request compares the changes proposed by the topic branch (`my-topic-branch`) with the base branch (`main`), so `my-topic-branch` is known as the “compare branch”.
+* The pull request compares the changes proposed by the topic branch (`my-topic-branch`) with the base branch (`main`), so `my-topic-branch` is known as the "head branch".
 
 For more information about pull request branches, including examples, see "[AUTOTITLE](/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#changing-the-branch-range-and-destination-repository)."
 
@@ -36,7 +36,7 @@ For more information about pull request branches, including examples, see "[AUTO
 
    ![Screenshot of the page to open a new pull request. The dropdown menus for choosing the base repository and branch are outlined in dark orange.](/assets/images/help/pull_requests/choose-base-fork-and-branch.png)
 
-1. In the "head fork" dropdown menu, select your fork, then use the "compare branch" drop-down menu to select the branch you made your changes in.
+1. In the "head fork" dropdown menu, select your fork, then use the "head branch" drop-down menu to select the branch you made your changes in.
 
    ![Screenshot of the page to open a new pull request. The dropdown menus for choosing the head repository and compare branch are outlined in dark orange.](/assets/images/help/pull_requests/choose-head-fork-compare-branch.png)
 
